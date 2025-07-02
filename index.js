@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-    origin: 'https://job-frontend-dusky-phi.vercel.app/',
+    origin: 'https://job-frontend-dusky-phi.vercel.app',
     // origin:"https://job-hunt-frontend-t6um.onrender.com",
     // origin: ["http://localhost:5173", "https://your-frontend-service.onrender.com"],
     credentials: true,
